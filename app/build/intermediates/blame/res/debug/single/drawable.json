@@ -36,14 +36,24 @@
         "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_search_api_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
+=======
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
         "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
         "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_textfield_search_material.xml"
     },

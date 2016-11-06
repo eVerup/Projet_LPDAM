@@ -1,12 +1,45 @@
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.lucasabadie.projetandroidtp.GameFragment">
 
+<<<<<<< HEAD
     <com.example.lucasabadie.projetandroidtp.CustomView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/CustomView"/>
 
 </LinearLayout>
+=======
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Number of object : 1"
+        android:id="@+id/textFragment" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed : 0"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageLayout"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true">
+
+    </RelativeLayout>
+
+</RelativeLayout>
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5

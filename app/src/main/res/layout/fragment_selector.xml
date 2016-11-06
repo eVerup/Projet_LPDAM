@@ -162,7 +162,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
+<<<<<<< HEAD
             android:text="Speed : 0%"
+=======
+            android:text="Speed : 0"
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
             android:id="@+id/SeekBarText"
             android:layout_gravity="center_horizontal" />
 

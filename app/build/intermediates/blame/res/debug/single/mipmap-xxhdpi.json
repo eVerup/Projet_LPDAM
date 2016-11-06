@@ -1,10 +1,19 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_logo.png",
         "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/src/main/res/mipmap-xxhdpi/ic_logo.png"
     },
     {
         "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+=======
+        "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_beetle_car_front.png",
+        "source": "/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/src/main/res/mipmap-xxhdpi/ic_beetle_car_front.png"
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     }
 ]

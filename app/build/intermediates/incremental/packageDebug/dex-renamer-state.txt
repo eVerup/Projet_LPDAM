@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Sun Nov 06 22:32:54 CET 2016
+=======
+#Mon Oct 31 11:51:30 CET 2016
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 base.0=/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_918e39b5afda4e38bef307cb3a11f8954be5d1cc
 renamed.1=classes.dex
 renamed.0=classes2.dex

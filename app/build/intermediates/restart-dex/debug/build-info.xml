@@ -5,29 +5,48 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
+<<<<<<< HEAD
     timestamp="3643926099006"
+=======
+    timestamp="11313591303172"
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     token="-6512466882778962515"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
+<<<<<<< HEAD
         duration="772" />
+=======
+        duration="0" />
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
         duration="469" />
     <task
         name="verifier"
         duration="29" />
+=======
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 
     <artifact
         location="/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
+<<<<<<< HEAD
         timestamp="3643926099006"
+=======
+        timestamp="11313591303172"
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Julien/AndroidStudioProjects/ProjetAndroidTP/app/build/outputs/apk/app-debug.apk"

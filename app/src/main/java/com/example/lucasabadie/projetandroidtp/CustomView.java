@@ -1,5 +1,6 @@
 package com.example.lucasabadie.projetandroidtp;
 
+<<<<<<< HEAD
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -216,4 +217,41 @@ public class CustomView extends View implements View.OnTouchListener {
 
     //endregion
 
+=======
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.util.AttributeSet;
+import android.view.View;
+
+/**
+ * Created by Lucas Abadie on 31/10/2016.
+ */
+public class CustomView extends View {
+
+    private Paint paint;
+
+    public CustomView (Context context) {
+        super(context);
+        init();
+    }
+
+
+    public CustomView (Context context, AttributeSet attrs) {
+        super(context, attrs);
+        init();
+    }
+
+    public void init () {
+        paint = new Paint();
+        paint.setTextSize(25);
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        // dessiner
+        canvas.drawText(
+                "New Text", 0, 0, paint);
+    }
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 }

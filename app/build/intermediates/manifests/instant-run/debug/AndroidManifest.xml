@@ -8,6 +8,7 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="24" />
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -22,15 +23,28 @@
         <activity
             android:name="com.example.lucasabadie.projetandroidtp.Activity_Accueil"
             android:screenOrientation="portrait" >
+=======
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.lucasabadie.projetandroidtp.MainActivity" >
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity
             android:name="com.example.lucasabadie.projetandroidtp.Activity_Jeu"
             android:screenOrientation="portrait" />
+=======
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     </application>
 
 </manifest>

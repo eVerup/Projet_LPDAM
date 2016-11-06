@@ -7,7 +7,13 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+<<<<<<< HEAD
 import android.graphics.Paint;
+=======
+import android.graphics.ColorFilter;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -24,30 +30,51 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+<<<<<<< HEAD
 
 /**
  * A simple {@link Fragment} subclass.
  */
+=======
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 public class SelectorFragment extends Fragment {
 
     private static final String TAG = "SelectorFragment";
 
     private View v;
+<<<<<<< HEAD
     private Resources mResources;
     private Drawable drawableTest;
+=======
+
+    private Drawable drawableTest;
+    private ColorFilter colorFilterGenerator;
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 
     private ImageView imgCamaro;
     private ImageView imgTruck;
     private ImageView imgBeetle;
     private ImageView imgRollsRoyce;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     private Bitmap bitmapCamaro;
     private Bitmap bitmapTruck;
     private Bitmap bitmapBeetle;
     private Bitmap bitmapRollsRoyce;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     private Button colorBlack;
     private Button colorBlue;
     private Button colorGreen;
     private Button colorRed;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     private TextView np;
     private SeekBar seekBar;
 
@@ -55,6 +82,7 @@ public class SelectorFragment extends Fragment {
     private String color;
     private int number;
     private int speed;
+<<<<<<< HEAD
     private int seekBarMax = 100;
 
     public SelectorFragment() {
@@ -70,6 +98,20 @@ public class SelectorFragment extends Fragment {
 
         // Get the Resources
         mResources = getResources();
+=======
+    private int seekBarMax = 30;
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        v = inflater.inflate(R.layout.fragment_selector, container, false);
+
+        object = bitmapCamaro;
+        color = "#000000";
+        number = 1;
+        speed = 0;
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 
         // Get the widgets reference from XML layout
         imgCamaro = (ImageView) v.findViewById(R.id.iCamaro);
@@ -79,6 +121,7 @@ public class SelectorFragment extends Fragment {
 
 
         // Get the bitmap from drawable resources
+<<<<<<< HEAD
         bitmapCamaro = BitmapFactory.decodeResource(mResources,R.drawable.ic_camaro);
         bitmapTruck = BitmapFactory.decodeResource(mResources,R.drawable.ic_delivery_truck_front);
         bitmapBeetle = BitmapFactory.decodeResource(mResources,R.drawable.ic_beetle_car_front);
@@ -96,10 +139,18 @@ public class SelectorFragment extends Fragment {
         imgTruck.setImageBitmap(bitmapTruck);
         imgBeetle.setImageBitmap(bitmapBeetle);
         imgRollsRoyce.setImageBitmap(bitmapRollsRoyce);
+=======
+        bitmapCamaro = BitmapFactory.decodeResource(getResources(),R.drawable.ic_camaro);
+        bitmapTruck = BitmapFactory.decodeResource(getResources(),R.drawable.ic_delivery_truck_front);
+        bitmapBeetle = BitmapFactory.decodeResource(getResources(),R.drawable.ic_beetle_car_front);
+        bitmapRollsRoyce = BitmapFactory.decodeResource(getResources(),R.drawable.ic_rolls_royce_luxury_car_front);
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 
         imgCamaro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
 
                 object = bitmapCamaro;
 
@@ -111,11 +162,15 @@ public class SelectorFragment extends Fragment {
                 imgBeetle.setImageBitmap(bitmapBeetle);
                 imgRollsRoyce.setImageBitmap(bitmapRollsRoyce);
                 mListener.onAction(object, color, number, speed);
+=======
+                choisirObjet(1);
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
             }
         });
         imgTruck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
 
                 object = bitmapTruck;
 
@@ -127,11 +182,15 @@ public class SelectorFragment extends Fragment {
                 imgBeetle.setImageBitmap(bitmapBeetle);
                 imgRollsRoyce.setImageBitmap(bitmapRollsRoyce);
                 mListener.onAction(object, color, number, speed);
+=======
+                choisirObjet(2);
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
             }
         });
         imgBeetle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
 
                 object = bitmapBeetle;
 
@@ -143,11 +202,15 @@ public class SelectorFragment extends Fragment {
                 imgBeetle.setImageDrawable(drawable);
                 imgRollsRoyce.setImageBitmap(bitmapRollsRoyce);
                 mListener.onAction(object, color, number, speed);
+=======
+                choisirObjet(3);
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
             }
         });
         imgRollsRoyce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
 
                 object = bitmapRollsRoyce;
 
@@ -162,6 +225,13 @@ public class SelectorFragment extends Fragment {
             }
         });
 
+=======
+                choisirObjet(4);
+            }
+        });
+
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
         // Get the widgets reference from XML layout
         colorBlack = (Button) v.findViewById(R.id.bColorBlack);
         drawableTest = getResources().getDrawable(R.drawable.roundbutton);
@@ -256,6 +326,7 @@ public class SelectorFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: buttonPlus pushed.");
+<<<<<<< HEAD
 
                 int nbMax = 100;
 
@@ -264,12 +335,24 @@ public class SelectorFragment extends Fragment {
                 }
                 else{
                     number = nbMax;
+=======
+                if(number < 10){
+                    number++;
+                }
+                else{
+                    number = 10;
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
                 }
                 Log.d(TAG,"onClick of buttonPlus: np = " + number +".");
                 np.setText(String.valueOf(number));
             }
         });
 
+<<<<<<< HEAD
+=======
+        Log.d(TAG,"onCreateView: np = " + number +".");
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
         np.addTextChangedListener(new TextWatcher() {
 
             public void afterTextChanged(Editable s) {
@@ -290,7 +373,12 @@ public class SelectorFragment extends Fragment {
 
                 speed = progress;
 
+<<<<<<< HEAD
                 ((TextView)v.findViewById(R.id.SeekBarText)).setText("Speed : " + speed + "%");
+=======
+                ((TextView)v.findViewById(R.id.SeekBarText)).setText("Speed : " + progress);
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
                 mListener.onAction(object, color, number, speed);
 
             }
@@ -304,7 +392,53 @@ public class SelectorFragment extends Fragment {
         return v;
     }
 
+<<<<<<< HEAD
     // Container Activity must implement this kind of interface
+=======
+    private void choisirObjet( int i ) {
+        imgCamaro.setBackgroundResource(R.drawable.none);
+        imgTruck.setBackgroundResource(R.drawable.none);
+        imgBeetle.setBackgroundResource(R.drawable.none);
+        imgRollsRoyce.setBackgroundResource(R.drawable.none);
+
+        switch( i ) {
+            case 1: {
+                object = bitmapCamaro;
+
+                imgCamaro.setBackgroundResource(R.drawable.roundbutton);
+
+                break;
+            }
+
+            case 2: {
+                object = bitmapTruck;
+
+                imgTruck.setBackgroundResource(R.drawable.roundbutton);
+
+                break;
+            }
+
+            case 3: {
+                object = bitmapBeetle;
+
+                imgBeetle.setBackgroundResource(R.drawable.roundbutton);
+
+                break;
+            }
+
+            case 4: {
+                object = bitmapRollsRoyce;
+
+                imgRollsRoyce.setBackgroundResource(R.drawable.roundbutton);
+
+                break;
+            }
+        }
+
+        mListener.onAction(object, color, number, speed);
+    }
+
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
     public interface OnActionListener {
         void onAction(Bitmap object, String color, int numObject, int speed);
     }
@@ -320,6 +454,7 @@ public class SelectorFragment extends Fragment {
                     + " must implement OnActionListener");
         }
     }
+<<<<<<< HEAD
 
     private RoundedBitmapDrawable createRoundedBitmapDrawableWithBorder(Bitmap bitmap){
         int bitmapWidth = bitmap.getWidth();
@@ -427,4 +562,6 @@ public class SelectorFragment extends Fragment {
         // Return the RoundedBitmapDrawable
         return roundedBitmapDrawable;
     }
+=======
+>>>>>>> 4e7fa08e5b83129b4932c592d34580e395f00de5
 }
